@@ -192,7 +192,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5"
       style={{
-        background: scrolled ? "rgba(10,10,10,0.98)" : "rgba(17,17,17,0.85)",
+        background:"rgba(10,10,10,0.98)" ,
         backdropFilter: "blur(12px)",
         transition: "background .3s",
       }}>
