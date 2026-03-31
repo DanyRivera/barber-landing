@@ -765,15 +765,15 @@ export default function BarberShop() {
       <style>{GLOBAL_STYLES}</style>
       <div style={{ background: "#111111", color: "#fff", fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        {/* <Hero /> */}
-        {/* <MarqueeBand /> */}
-        {/* <Stats /> */}
-        {/* <Gallery /> */}
-        {/* <Prices /> */}
-        {/* <Team /> */}
-        {/* <Reviews /> */}
-        {/* <Contact /> */}
-        {/* <Footer /> */}
+        <Hero />
+        <MarqueeBand />
+        <Stats />
+        <Gallery />
+        <Prices />
+        <Team />
+        <Reviews />
+        <Contact />
+        <Footer />
       </div>
     </>
   );
